@@ -1,6 +1,6 @@
 export const getWeatherData = async (cityName) => {
   const response = await fetch(
-    `http://localhost:3000/api/weather?city=${cityName}`
+    `https://weather-dashboard-1-mijx.onrender.com/api/weather?city=${cityName}`
   );
   return response.json();
 };
